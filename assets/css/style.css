@@ -21,7 +21,7 @@ body {
 }
 
 main {
-    height: 90%;
+    min-height: 80%;
     width: 90vw;
     display: flex;
     flex-direction: column;
@@ -32,7 +32,7 @@ main {
 }
 
 .image-card {
-    width: 300px;
+    width: 250px;
     padding: 2.5rem;
 }
 
@@ -43,9 +43,10 @@ main {
     justify-content: center;
 
     background-color: #B0BEC5;
-    height: 400px;
-    max-width: 300px;
+    max-height: 400px;
+    max-width: 380px;
     padding: 1rem;
+    margin: 20px 0;
 
     border-radius: 10px;
 }
