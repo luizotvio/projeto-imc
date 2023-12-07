@@ -43,7 +43,7 @@ main {
     justify-content: center;
 
     background-color: #B0BEC5;
-    max-height: 360px;
+    max-height: 375px;
     width: 280px;
     padding: 1rem;
     margin: 20px 0;
@@ -91,4 +91,8 @@ main {
 
 #results > p {
     margin: 5px 0;
+}
+
+#result {
+    color: #E7EBEE;
 }
