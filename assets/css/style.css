@@ -21,7 +21,7 @@ body {
 }
 
 main {
-    height: 650px;
+    height: 620px;
     width: 330px;
     display: flex;
     flex-direction: column;
@@ -32,7 +32,7 @@ main {
 }
 
 .image-card {
-    width: 250px;
+    width: 200px;
     padding: 1rem;
 }
 
