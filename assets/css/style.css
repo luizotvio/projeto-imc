@@ -21,7 +21,7 @@ body {
 }
 
 main {
-    min-height: 80%;
+    height: 650px;
     width: 330px;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@ main {
 
 .image-card {
     width: 250px;
-    padding: 2.5rem;
+    padding: 1rem;
 }
 
 .conteudo-card {
@@ -43,8 +43,8 @@ main {
     justify-content: center;
 
     background-color: #B0BEC5;
-    max-height: 400px;
-    max-width: 380px;
+    max-height: 360px;
+    width: 280px;
     padding: 1rem;
     margin: 20px 0;
 
