@@ -21,7 +21,7 @@ body {
 }
 
 main {
-    height: 620px;
+    height: 90vh;
     width: 330px;
     display: flex;
     flex-direction: column;
