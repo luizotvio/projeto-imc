@@ -31,11 +31,6 @@ main {
     border-radius: 1rem;
 }
 
-.image-card {
-    width: 200px;
-    padding: 1rem;
-}
-
 .image-card img {
     width: 150px;
 }
