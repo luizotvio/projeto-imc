@@ -36,6 +36,10 @@ main {
     padding: 1rem;
 }
 
+.image-card img {
+    width: 150px;
+}
+
 .conteudo-card {
     display: flex;
     flex-direction: column;
@@ -43,7 +47,7 @@ main {
     justify-content: center;
 
     background-color: #B0BEC5;
-    max-height: 375px;
+    max-height: 360px;
     width: 280px;
     padding: 1rem;
     margin: 20px 0;
