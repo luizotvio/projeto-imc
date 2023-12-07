@@ -79,14 +79,24 @@ main {
     margin: 5px 0;
 }
 
+.conteudo-card input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+.conteudo-card input:focus {
+    outline: none;
+}
+
 #calc {
     margin: 10px 0;
+    cursor: pointer;
 }
 
 #results {
     background-color: #ccc;
     height: 100px;
-    width: 170px;
+    width: 11.5rem;
     margin: 20px 10px;
     text-align: center;
 
@@ -99,4 +109,6 @@ main {
 
 #result {
     color: #E7EBEE;
+    font-weight: bold;
+    width: 10.5rem;
 }
