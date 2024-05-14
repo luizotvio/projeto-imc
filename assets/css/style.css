@@ -21,17 +21,16 @@ body {
 
 main {
     max-height: auto;
-    width: 330px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #858585;
     border-radius: 1rem;
 }
 
 .image-card img {
-    width: 150px;
+    display: none;
 }
 
 .conteudo-card {
@@ -41,8 +40,8 @@ main {
     justify-content: center;
 
     background-color: #B0BEC5;
-    height: 400px;
-    width: 280px;
+    height: auto;
+    width: 90%;
     padding: 1rem;
     margin: 20px 0;
 
@@ -62,15 +61,22 @@ main {
 }
 
 .conteudo-card form {
-    display: flex;
-    flex-direction: column;
+    width: 90%;
 }
 
 .conteudo-card input {
-    padding: 0.3rem;
+    width: 100%;
+    padding: .625rem;
     border-style: none;
     border-radius: 6px;
     margin: 5px 0;
+    box-shadow: 1px 1px 10px #263238;
+}
+.conteudo-card input::placeholder{
+    color: #8f9496;
+}
+.conteudo-card input[type="submit"] {
+    font-size: 1rem;
 }
 
 .conteudo-card input::-webkit-outer-spin-button,
@@ -89,20 +95,42 @@ input::-webkit-inner-spin-button {
 
 #results {
     background-color: #ccc;
-    height: 100px;
-    width: 11.5rem;
+    height: auto;
+    width: 90%;
     margin: 20px 10px;
-    text-align: center;
-
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: .625rem;
 }
 
-#results > p {
-    margin: 5px 0;
+#results.hidden {
+    display: none;
 }
 
-#result {
-    color: #E7EBEE;
+#results p {
+    margin: 10px;
     font-weight: bold;
-    width: 10.5rem;
+}
+
+#result{
+    color: #8f9496;
+    width: 12.5rem;
+}
+
+@media (width >= 768px) {
+    main {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .image-card img{
+        display: block;
+        width: 500px;
+    }
+    .conteudo-card {
+        width: 400px;
+    }
 }
